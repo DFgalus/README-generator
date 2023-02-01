@@ -1,0 +1,23 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "A script to generate a professional README.md file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DFgalus/README-generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/DFgalus/README-generator/issues"
+  },
+  "homepage": "https://github.com/DFgalus/README-generator#readme"
+}
