@@ -78,7 +78,7 @@ function writeToFile(fileName, data) {
 };
 
 // TODO: Create a function to initialize app
-function init(data) {
+const init = () => {
    promptUser()
       .then((data) => writeToFile(`${fileName}.md`, generateMarkdown(data)))
       .then(() => console.log(`Successfully created ${fileName}.md`))

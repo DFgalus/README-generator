@@ -36,8 +36,16 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if(license === true) {
-    return "# License"
+  if(license === licArr[0]) {
+    return `Learn more about ${licArr[0]} here: `
+  } else if(license === licArr[1]) {
+    return `Learn more about ${licArr[1]} here: `
+  } else if(license === licArr[2]) {
+    return `Learn more about ${licArr[2]} here: `
+  } else if(license === licArr[3]) {
+    return `Learn more about ${licArr[3]} here: `
+  } else {
+    return ""
   }
 }
 

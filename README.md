@@ -1,6 +1,7 @@
 ## ${data.title}
 
-
+# Badges
+ ${renderLicenseBadge(data.license)}
 
 # About
 
@@ -24,8 +25,10 @@
 
  Feel free to reach me with any further questions, my GitHub is: ${data.github} and my email is: ${data.email}
 
-# License 
- ${data.license}
+
+# License
+ ${renderLicenseSection(data.license)}
+ ${renderLicenseLink(data.license)}
 
 
 
