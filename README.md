@@ -15,7 +15,7 @@
 
 # Installation
 
- ${data.installation}
+ ${data.install}
 
 # Contributions
 
