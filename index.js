@@ -23,66 +23,64 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-const promptUser = () => {inquirer
-   .prompt = [(
+function promptUser() {
+   return inquirer.prompt = ([
       {
          type: 'input',
          name: 'title',
          message: 'What is the title of your project?',
-   }, {
-      type: 'input',
-      name: 'description',
-      message: 'Add a brief description of your project.',
-   }, {
-      type: 'input',
-      name: 'usage',
-      message: 'Add some usage instructions, if applicable.',
-   } , {
-      type: 'input',
-      name: 'install',
-      message: 'Add intructions for installtion',
-   }, {
-      type: 'input',
-      name: 'contribution',
-      message: 'Add contributions to collaborators and sources.',
- }, {
-   type: 'input',
-   name: 'github',
-   message: 'What is your GitHub username?',
-}, {
-   type: 'list',
-   name: 'email',
-   message: 'What is your email?',
-}, {
-    type: 'list',
-    name: 'license',
-    message: 'Choose a license.',
-    choices: ['MIT', 'Apache', 'GNU 3.0', 'MPL'],
- }, {
-    type: 'input',
-    name: 'fileName',
-    message: 'What do you want to call this README?',
-    choices: ['MIT', 'Apache', 'GNU 3.0', 'MPL'],
-}
-)]};
-
-
-
-
-// TODO: Create a function to write README file
-
-function writeToFile(fileName, data) {
-   fs.appendFile(`${fileName}.md`, data, err => {
+      }, {
+         type: 'input',
+         name: 'description',
+         message: 'Add a brief description of your project.',
+      }, {
+         type: 'input',
+         name: 'usage',
+         message: 'Add some usage instructions, if applicable.',
+      } , {
+         type: 'input',
+         name: 'install',
+         message: 'Add intructions for installtion',
+      }, {
+         type: 'input',
+         name: 'contribution',
+         message: 'Add contributions to collaborators and sources.',
+      }, {
+         type: 'input',
+         name: 'github',
+         message: 'What is your GitHub username?',
+      }, {
+         type: 'list',
+         name: 'email',
+         message: 'What is your email?',
+      }, {
+         type: 'list',
+         name: 'license',
+         message: 'Choose a license.',
+         choices: ['MIT', 'Apache', 'GNU 3.0', 'MPL'],
+      }, {
+         type: 'input',
+         name: 'fileName',
+         message: 'What do you want to call this README?',
+         choices: ['MIT', 'Apache', 'GNU 3.0', 'MPL'],
+      }
+   ])};
+   
+   
+   
+   
+   // TODO: Create a function to write README file
+   
+   function writeToFile(fileName, data) {
+      fs.appendFile(`${fileName}.md`, data, err => {
       err ? console.error(err) : console.log(`Successfully created ${fileName}.md`)
    })
 };
 
 // TODO: Create a function to initialize app
-const init = () => {
-   promptUser()
-      .then((data) => writeToFile(`${fileName}.md`, generateMarkdown(data)))
-      .then(() => console.log(`Successfully created ${fileName}.md`))
-      .catch((err) => console.error(err));
+function init() {
+   let answers = promptUser();
+   writeToFile((answers.fileName), (generateMarkdown(answers)));
 }
 
 // Function call to initialize app
