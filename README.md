@@ -10,12 +10,12 @@ The purpose of this project was to build a command line tool to create a profess
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Questions](#questions)
 - [License](#license)
 
 ## Installation
 
-To install this application, download the file from my GitHub/
+To install this application, download the file from my GitHub: https://github.com/DFgalus
 
 ## Usage
 
@@ -25,7 +25,8 @@ To use this script, make sure you are in the working directory, and enter 'node 
 ![alt text](./assets/gif.gif) 
 
 
-
+## Questions
+ For any further questions contact me on GitHub: https://github.com/DFgalus and [[![email ](https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkVrMNjJWDKqqDwvFSTVCwHVwMnBpsFrpZkgNbZjsQXQGcPrqFRpVXDGqLdThjVbddRwL)]
 
 ## License
 Learn more about the MIT license here: https://opensource.org/licenses/MIT
