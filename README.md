@@ -1,34 +1,36 @@
-## ${data.title}
+# README Generator
 
-# Badges
- ${renderLicenseBadge(data.license)}
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# About
+## Description
 
- ${data.description}
+The purpose of this project was to build a command line tool to create a professional README in just a few prompts.  I implemented the prompts and the generation of the custom README file to practice my new skills with node.js
+
+## Table of Contents (Optional)
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+To install this application, download the file from my GitHub/
+
+## Usage
+
+To use this script, make sure you are in the working directory, and enter 'node index.js' to begin creating your README file.
+
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
 
 
 
-# Usage
-
- ${data.usage}
-
-# Installation
-
- ${data.install}
-
-# Contributions
-
- ${data.contributions}
-
-# Questions
-
- Feel free to reach me with any further questions, my GitHub is: ${data.github} and my email is: ${data.email}
+## License
+Learn more about the MIT license here: [![License: MIT](https://opensource.org/licenses/MIT)]
 
 
-# License
- ${renderLicenseSection(data.license)}
- ${renderLicenseLink(data.license)}
 
 
 
