@@ -1,25 +1,30 @@
-## My-project
+## my-project
 
   # Badges
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   # About
   
-   A hardworking project that is good and very  cool
+   A cool and very good project that I worked hard on.
   
-  
+  ## Table of Contents
+
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
   
   # Usage
   
-   To run the script, enter 'node index.js'
+   Enter 'node index.js' in your terminal to begin creating a README file.
   
   # Installation
   
-   Download the the app from my GitHub.
+   To install refer to my GitHub
   
   # Contributions
   
-   Anyone and everyone
+   anyone and everyone
   
   # Questions
   

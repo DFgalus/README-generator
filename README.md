@@ -28,7 +28,7 @@ To use this script, make sure you are in the working directory, and enter 'node 
 
 
 ## License
-Learn more about the MIT license here: [![License: MIT](https://opensource.org/licenses/MIT)]
+Learn more about the MIT license here: https://opensource.org/licenses/MIT
 
 
 
