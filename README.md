@@ -6,7 +6,7 @@
 
 The purpose of this project was to build a command line tool to create a professional README in just a few prompts.  I implemented the prompts and the generation of the custom README file to practice my new skills with node.js
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
