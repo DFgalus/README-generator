@@ -21,9 +21,9 @@ To install this application, download the file from my GitHub/
 
 To use this script, make sure you are in the working directory, and enter 'node index.js' to begin creating your README file.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+
+![alt text](./assets/gif.gif) 
+
 
 
 
